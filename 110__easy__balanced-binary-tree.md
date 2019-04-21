@@ -77,13 +77,11 @@ var isBalanced = function(root) {
     const right = getHeight(root.right)
 
     if (left === -1 || right === -1 || Math.abs(left - right) > 1) {
-      return false
+      return -1
     }
 
     return Math.max(left, right) + 1
   }
 }
-
-
 ```
 
