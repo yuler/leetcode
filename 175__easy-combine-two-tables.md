@@ -28,7 +28,7 @@ Write a SQL query for a report that provides the following information for each 
 FirstName, LastName, City, State
 
 
-```JavaScript
+```sql
 # Write your MySQL query statement below
 
 select Person.FirstName, Person.LastName, Address.City, Address.State
