@@ -38,5 +38,6 @@ var isPerfectSquare = function(num) {
       else return sqrt(x, l, mid - 1)
     }
   }
+  return false
 }
 ```
