@@ -52,7 +52,7 @@ var nextGreatestLetter = function(letters, target) {
   let left = 0
   let right = letters.length
   while (left < right) {
-    const mid = parseInt(left + (left + right) / 2)
+    const mid = parseInt(left + (right - left) / 2)
     if (letters[mid] <= target) left = mid + 1
     else right = mid
   }
