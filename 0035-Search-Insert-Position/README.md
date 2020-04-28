@@ -50,7 +50,8 @@ Output: 0
 然后再求 middle 的值，直到 left > right 才结束。
 
 空间复杂度：O(1)
-时间复杂度：O(logN)
+
+时间复杂度：O(logn)
 
 ## JavaScript
 

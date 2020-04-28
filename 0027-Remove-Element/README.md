@@ -56,10 +56,11 @@ for (int i = 0; i < len; i++) {
 ## Analysis:
 
 要求不要使用额外的数组，空间复杂度 O(1)，数组的顺序可以改变。
-参考 (Remove-Duplicates-from-Sorted-Array#Analysis)[../0026-Remove-Duplicates-from-Sorted-Array#Analysis]
+参考 [Remove-Duplicates-from-Sorted-Array#Analysis](../0026-Remove-Duplicates-from-Sorted-Array#Analysis)
 使用 快慢指针，slow = -1, fast = 0，使用 fast 指针遍历数组，当 target !== nums[fast]，nums[slow + 1] = nums[fast]。
 
 空间复杂度：O(1)
+
 时间复杂度：O(n)
 
 ## JavaScript

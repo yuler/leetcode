@@ -1,8 +1,8 @@
 # Reverse Integer
 
-https://leetcode.com/problems/reverse-integer/
+Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array
 
-Easy
+Difficulty: Easy
 
 ## Question:
 
@@ -53,6 +53,7 @@ for (int i = 0; i < len; i++) {
 因为数组已经排好序了，我们使用两个指针 i 和 j，i 是慢指针，j 是快指针。只要当 nums[i] === nums[j]，我们 j++ 来跳过重复的。当遇到 nums[i] !== nums[j]，表示重复结束，我们将 nums[j] 赋值给 nums[i + 1]，然后 i++，然后重复相同的过程, 知道 j === nums.length 结束循环。
 
 空间复杂度：O(1)
+
 时间复杂度：O(n)
 
 ## JavaScript
