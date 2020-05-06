@@ -31,7 +31,7 @@ Output: [1,2,2,3,5,6]
 if `nums1[first] > nums2[second]` => `nums[index] = nums1[first] & first--`  
 else => `nums[index] = nums2[second] & second--`
 
-空间复杂度 O(1)
+空间复杂度 O(1) 
 时间复杂度 O(m + n)
 
 ## JavaScript
